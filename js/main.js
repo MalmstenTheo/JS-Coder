@@ -28,7 +28,7 @@ if (bienvenido == 1) {
     
     
     cantidad.forEach(function a (cantidad, i){
-        salida += "Stock del producto " + this.productos[i] + ": " + cantidad + "\n";
+        salida += "Stock del producto " + this.productos[i] + ": " + cantidad + " unidades" + "\n";
     })
     
     alert(salida) 
