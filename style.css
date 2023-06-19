@@ -1,0 +1,94 @@
+body{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: oblique;
+}
+
+.card{
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.788);
+    background-color: rgba(211, 211, 211, 0.493);
+    
+    display: grid;
+    grid-template-rows: 50px 35px;
+    align-items: start;
+    justify-content: center;;
+    margin-top: 100px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+.card input{
+    width: 400px;
+    height: 21px;
+    
+    margin-left: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.input{
+    width: 500px;
+    height: 60px;
+}
+
+.input button{
+    height: 27px;
+    width: 60px;
+    margin-left: 8px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.producto{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+
+.cantidad{
+    list-style: none;
+    margin-right: 35px;
+}
+
+.botonesLi{
+    width: 477px;
+    height: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    gap: 2px;
+}
+.aumentar{
+    width: 29px;
+}
+.disminuir{
+    width: 29px;
+}
+
+#alerta{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+}
+
+.botonVaciar{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.botonVaciar button{
+    width: 450px;
+    font-family: 'Bebas Neue', sans-serif;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
