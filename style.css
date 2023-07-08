@@ -1,7 +1,8 @@
 body{
-    height: auto;
-    display: flex;
-    justify-content: center;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     align-items: center;
     font-family: 'Bebas Neue', sans-serif;
     font-style: oblique;
@@ -14,11 +15,13 @@ body{
     border: 2px solid rgba(0, 0, 0, 0.788);
     background-color: rgba(211, 211, 211, 0.493);
     
+    
     display: grid;
-    grid-template-rows: 50px 35px;
-    align-items: start;
-    justify-content: center;;
-    margin-top: 100px;
+    grid-template-rows: 50px 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    margin-bottom: 370px;
 }
 
 h3{
@@ -50,12 +53,12 @@ h3{
     display: flex;
     flex-direction: row;
     margin-left: 12px;
-    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .cantidad{
     list-style: none;
-    margin-right: 35px;
+    margin-right: 15px;
 }
 
 .botonesLi{
@@ -91,4 +94,23 @@ h3{
     font-family: 'Bebas Neue', sans-serif;
     border: 1.5px solid black;
     border-radius: 5px;
+}
+
+
+
+.patrocinadores{
+    width: fit-content;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 190px;
+    bottom: 190px;
+}
+
+#contenedorDos{
+    padding: 5px;
+    align-items: center;
 }
