@@ -6,11 +6,13 @@ function renderizarProducto(producto) {
     let divProducto = document.createElement("div")
     divProducto.classList.add("producto")
     divProducto.innerHTML = `
-    <li>${producto}</li> <div class="botonesLi">
-    <li class="cantidad">Cantidad: ${cantidad}</li> 
-    <button class="aumentar" onclick="sumar()">+</button>
+    <li>${producto}</li> 
+    <div class="botonesLi">
+    <li class="cantidad">Cantidad: <input value="1" min="1" type="number" class="cantidadInput"></li>
+    </div> `  
+    /* <button class="aumentar" onclick="sumar()">+</button>
     <button class="disminuir" onclick="restar()">-</button> 
-</div> `
+    </div> ` */
     lista.append(divProducto)
 }
 
@@ -79,20 +81,6 @@ document.getElementById("1").addEventListener("keydown", function(event) {
         mostrarInput() 
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* function vaciarProductos () {

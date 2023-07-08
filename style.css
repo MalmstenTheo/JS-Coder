@@ -56,9 +56,18 @@ h3{
     margin-top: 10px;
 }
 
+.cantidad input{
+    width: 50px;
+    height: 15px;
+}
+
 .cantidad{
     list-style: none;
-    margin-right: 15px;
+    height: 100%;
+    width: 120px;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
 }
 
 .botonesLi{
@@ -69,12 +78,12 @@ h3{
     justify-content: end;
     gap: 2px;
 }
-.aumentar{
+/* .aumentar{
     width: 29px;
 }
 .disminuir{
     width: 29px;
-}
+} */
 
 #alerta{
     display: flex;
