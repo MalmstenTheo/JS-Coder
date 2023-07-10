@@ -73,14 +73,16 @@ function vaciarProductos () {
         }
     })
 }
-
 //Enviar datos apretando enter
 
 document.getElementById("1").addEventListener("keydown", function(event) {
-    if (event.key === "Enter"){
+    event.key === "Enter" ? mostrarInput():"" //Operador avanzado
+    /* if (event.key === "Enter"){
         mostrarInput() 
-    }
+    } */
 });
+
+
 
 
 /* function vaciarProductos () {
@@ -91,3 +93,4 @@ document.getElementById("1").addEventListener("keydown", function(event) {
     }
     localStorage.clear()
 } */
+
